@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0; box-sizing: border-box; transition: 0.3s}
+ul, li, ol{list-style: none}
+a{text-decoration: none}
+
+body{background: linear-gradient(270deg, rgba(244,255,253,1) 0%, rgba(255,251,249,1) 100%)}
+
+#header{height: 260px; padding: 50px 00px 0px 30px; }
+#header .color-rule-box::after{content: ''; display: block; clear: both}
+#header .color-rule-box ul{float: left; margin-bottom: 20px}
+#header .color-rule-box ul li{display: inline-block; font: 700 16px/30px 'Noto Sans KR'; margin-right: 20px; color: white; padding: 0px 20px; height: 30px}
+#header .color-rule-box ul li:nth-of-type(1){background-color: #eb3826}
+#header .color-rule-box ul li:nth-of-type(2){background-color: #5e3bde}
+#header .color-rule-box ul li:nth-of-type(3){background-color: #9ddd0b}
+#header .color-rule-box ul li:nth-of-type(4){background-color: #777}
+#header .color-rule-box ul li:nth-of-type(5){background-color: #ffc238}
+
+#header .icon-rule-box{width: 1000px}
+#header .icon-rule{display: inline-block; margin-right: 20px; margin-bottom: 20px; background-color: #333; width: 164px; height: 35px}
+#header .icon-rule .desc{font: 500 16px/35px 'Noto Sans KR'; color: white}
+
+#header img{width: 25px; float: left; margin: 5px 10px 5px 5px}
+
+.content{padding: 15px 20px 0px 30px; position: relative}
+
+.dec{float: left; width: 160px; height: 100%; background: linear-gradient(0deg, #555 0%, #333 100%); text-align: center}
+.dec h2{font: 700 16px/50px 'Noto Sans KR'; color: white}
+
+.year li{float: left; width: 100px; height: 50px; text-align: left; font:  500 16px/50px 'Noto Sans KR'; position: relative; margin-left: 20px}
+.year li::after{content: ''; display: block; width: 50px; border-style: dashed; border-width: 2px; border-color: #ddd; position: absolute; top: 24px; right: 0px}
+.year .big{width: 300px}
+.year .big::after{width: 250px}
+
+.event-wrap{position: absolute; top: 80px; left: 210px}
+
+.event{float: left; width: 100px; margin-right: 20px}
+.event-big{float: left; width: 300px; margin-right: 20px}
+
+.box{float: left; width: 45px; height: 45px; padding: 5px; margin-right: 10px; margin-bottom: 10px; background-color: green; position: relative}
+.box:nth-of-type(2n){margin-right: 0px}
+.maj{width: 100%; height: 70px; padding: 0px}
+.cul{background-color: #5e3bde}
+.inc{background-color: #eb3826}
+.misc{background-color: #ffc238}
+.birth{background-color: #9ddd0b}
+.death{background-color: #777}
+
+a{display: block; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px}
+
+.icon{float: left; width: 36px; height: 40px;}
+.icon img{width: 35px}
+.maj .icon{width: 40px; margin: 15px 5px 15px 10px}
+.maj .icon img{width: 40px}
+
+.subtitle{font: 500 18px/70px 'Noto Sans KR'; color: white}
+
+.min .info{background-color: white; position: absolute; top: 0px; left: 45px; z-index: 9; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); opacity: 0; width: 150px; height: 0px; overflow: hidden;}
+.min .info .txt{font: 15px/21px 'Noto Sans KR'; text-align: left}
+
+.min:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)}
+.min:hover .info{opacity: 1; padding: 12px 10px 12px 10px; height: auto}
+
+.maj .info{width: 100%; background-color: white; position: absolute; z-index: 9; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); overflow: hidden; opacity: 0; height: 0px; padding: 0px 15px 0px 15px}
+.maj .info img{width: 100%}
+.maj .info .txt{font: 15px 'Noto Sans KR'; text-align: left}
+
+.maj:hover{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)}
+.maj:hover .info{opacity: 1; height: auto;  padding: 15px;}
+
+.logo{font: 900 400px 'Noto Sans KR'; position: fixed; right: 30px; bottom: 0px; z-index: -1; color: #f5f5f5}
+
+#con1{width: 100%; height: 220px}
+#con1 .event-big:nth-of-type(1) .box{margin-right: 10px}
+#con2{width: 100%; height: 170px}
+#con3{width: 100%; height: 220px}
+#con4{width: 100%; height: 150px}
+#con5{width: 100%; height: 150px}
+#con6{width: 100%; height: 150px}
+#con7{width: 100%; height: 150px}
+#con8{width: 100%; height: 150px}
+#con9{width: 100%; height: 150px}
+#con10{width: 100%; height: 65px}
+#con11{width: 100%; height: 65px}
+#con12{width: 100%; height: 150px}
+#con13{width: 100%; height: 150px}
+#con14{width: 100%; height: 150px}
+#con15{width: 100%; height: 65px}
+#con16{width: 100%; height: 150px}
+#con17{width: 100%; height: 65px}
+#con18{width: 100%; height: 65px}
+#con19{width: 100%; height: 150px; margin-bottom: 50px}
+
+
+
+
+
+
+
